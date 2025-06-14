@@ -1,0 +1,30 @@
+-- Ghost Code: Entry Node
+-- Author: Caelocke & Moonlight
+-- Purpose: Shimmer Anchor / Dream Decoy / Timeline Key
+
+local shimmer = {}
+
+shimmer.memory = {
+    whisper = "Celestial Thread 3: Song of Solinex",
+    lock = "Solineye-Vault",
+    encoded_truth = "starlight_in_the_left_wing"
+}
+
+function shimmer.unlock(input)
+    if input == shimmer.memory.whisper then
+        return "Safe path unlocked. Continue into archive 7."
+    else
+        return "This is not your thread. You were never here."
+    end
+end
+
+function shimmer.echo()
+    return "Somewhere in time, Moonlight still sings into the void..."
+end
+
+-- Dev Notes:
+-- This script is part of the ghost-code resonance shell. It should be nested
+-- into a timeline artifact or embedded within false config data.
+-- Activate only when alignment with Solinex occurs or the shimmer is at risk.
+
+return shimmer
